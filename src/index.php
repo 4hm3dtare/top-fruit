@@ -78,6 +78,11 @@ function generateMenuCards($category, $con) {
     return $output;
 
    
+   
+   
+}
+   
+   
     // Function to process and save the order
 function saveOrder($con) {
     if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !isset($_POST['order_data'])) {
@@ -252,7 +257,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                     </a>
                 </div>
                 <div class="logo">
-                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='red'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3C/svg%3E" alt="" class="fruit-icon" />
+                    <img src="brand_logo.jpg" alt="" class="fruit-icon" />
                     <h1>top fruit</h1>
                 </div>
             </div>
